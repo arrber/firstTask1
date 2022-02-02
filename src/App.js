@@ -23,10 +23,12 @@ class App extends Component {
             <FontAwesomeIcon icon={faRuler} size='3x' color='blue'/>
           </div>
           <div className="main-holder">
-            <div className="title">
-              <h4>The TLD</h4>
+            <div className="title-holder">
+              <h4 className="title">The TLD</h4>
             </div>
-            <p className="description">Does the domain extension math the language of the domain name?</p>
+            <div className="text">
+              <p className="description">Does the domain extension math the language of the domain name?</p>
+            </div>
           </div>
         </div>
         <div className="card domain-length">
@@ -34,24 +36,25 @@ class App extends Component {
             <FontAwesomeIcon icon={faRuler} size='3x' color='blue'/>
           </div>
           <div className="main-holder">
-            <div className="title">
-              <h4>Domain Length</h4>
+            <div className="title-holder">
+              <h4 className="title">Domain Length</h4>
             </div>
             <div className="text">
               <p className="description">Is the domain short enough to remember?</p>
             </div>
           </div>
-
         </div>
         <div className="card language">
           <div className="icon-holder">
             <FontAwesomeIcon icon={faGlobe} size='3x' color='blue'/>
           </div>
           <div className="main-holder">
-            <div className="title">
-              <h4>Language</h4>
+            <div className="title-holder">
+              <h4 className="title">Language</h4>
             </div>
-            <p className="description">How complex is the actuall domain name?</p>
+            <div className="text">
+              <p className="description">How complex is the actuall domain name?</p>
+            </div>
           </div>
         </div>
         <div className="card international-recognition">
@@ -59,10 +62,12 @@ class App extends Component {
             <FontAwesomeIcon icon={faMedal} size='3x' color='blue'/>
           </div>
           <div className="main-holder">
-            <div className="title">
-              <h4>International recognition</h4>
+            <div className="title-holder">
+              <h4 className="title">International recognition</h4>
             </div>
-            <p className="description">Can the domain name be used on an international scale?</p>
+            <div className="text">
+              <p className="description">Can the domain name be used on an international scale?</p>
+            </div>
           </div>
         </div>
         <div className="card search-engine">
@@ -70,10 +75,12 @@ class App extends Component {
             <FontAwesomeIcon icon={faSearch} size='3x' color='blue'/>
           </div>
           <div className="main-holder">
-            <div className="title">
-              <h4>Search engine</h4>
+            <div className="title-holder">
+              <h4 className="title">Search engine</h4>
             </div>
-            <p className="description">Does the domain follow search engine guidelines?</p>
+            <div className="text">
+              <p className="description">Does the domain follow search engine guidelines?</p>
+            </div>
           </div>
         </div>
         <div className="card advertising-potential">
@@ -81,10 +88,12 @@ class App extends Component {
             <FontAwesomeIcon icon={faBullhorn} size='3x' color='blue'/>
           </div>
           <div className="main-holder">
-            <div className="title">
-              <h4>Advertising Potential</h4>
+            <div className="title-holder">
+              <h4 className="title">Advertising Potential</h4>
             </div>
-            <p className="description">Could the domain be used for advertising campaigns?</p>
+            <div className="text">
+              <p className="description">Could the domain be used for advertising campaigns?</p>
+            </div>
           </div>
         </div>
         <div className="card sales-oppurtunities">
@@ -92,10 +101,12 @@ class App extends Component {
             <FontAwesomeIcon icon={faPercentage} size='3x' color='blue'/>
           </div>
           <div className="main-holder">
-            <div className="title">
-              <h4>Sales Oppurtunities</h4>
+            <div className="title-holder">
+              <h4 className="title">Sales Oppurtunities</h4>
             </div>
-            <p className="description">Can the domain name be used on an international scale?</p>
+            <div className="text">
+              <p className="description">Can the domain name be used on an international scale?</p>
+            </div>
           </div>
         </div>
         <div className="card typo-susceptibility">
@@ -103,20 +114,23 @@ class App extends Component {
             <FontAwesomeIcon icon={faItalic} size='3x' color='blue'/>
           </div>
           <div className="main-holder">
-            <div className="title">
-              <h4>Typo susceptibility</h4>
+            <div className="title-holder">
+              <h4 className="title">Typo susceptibility</h4>
             </div>
-            <p className="description">How high is the risk of mistyping the domain name?</p>
+            <div className="text">
+              <p className="description">How high is the risk of mistyping the domain name?</p>
+            </div>
           </div>
-
         </div>
         <div className="card business-potential">
           <div className="icon-holder">
             <FontAwesomeIcon icon={faLightbulb} size='3x' color='blue'/>
           </div>
           <div className="main-holder">
-            <div className="title">
-              <h4>Business potential</h4>
+            <div className="title-holder">
+              <h4 className="title">Business potential</h4>
+            </div>
+            <div className="text">
               <p className="description">Can the domain be used as your company address?</p>
             </div>
           </div>
